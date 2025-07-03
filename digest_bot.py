@@ -232,8 +232,8 @@ Now write a Telegram-friendly summary using the following rules:
 
 # Replace with real keys
 GEMINI_API_KEY = "AIzaSyA9fTCND8yn7wLG_-DdJBNQVCuJtTuW6TU"
-TELEGRAM_BOT_TOKEN = "7846730609:AAFHoinwSJfVWpioccH9byT8qmhIbY5hYoU"
-TELEGRAM_CHAT_ID = "5989531343"
+TELEGRAM_BOT_TOKEN = "7890456652:AAGpWlvqHMUk8wF4tmuQsua3dSBxlwWSdlM"
+TELEGRAM_CHAT_ID = "8091448586"
 
 bot = InfrastructureDigestBot(GEMINI_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID)
 asyncio.run(bot.run_digest())
